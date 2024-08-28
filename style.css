@@ -374,6 +374,7 @@ section {
     align-items: center;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+    overflow-y: hidden;
 }
 
 .slide-cell {
