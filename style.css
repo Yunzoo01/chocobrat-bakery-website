@@ -624,17 +624,15 @@ section {
 footer{
     text-align: center;
     background-color: #FBEDCD;
-    width: 1440px;
     height: 394px;
-    width: 100%; /* 전체 너비 사용 */
+    justify-content: center;
     background-color: #FBEDCD; /* 배경 색상 설정 (필요에 따라 수정) */
+    padding: 80px 0px;
 }
 
 footer h1{
     font-weight: 500;
     font-size: 30px;
-    margin-top: 81px;
-    margin-left: 130px;
     color: #4A1D1F;
 }
 
@@ -644,8 +642,6 @@ footer h1{
     justify-content: end;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 90px;
-    margin-right: 130px;
 }
 
 .inline-block a {
@@ -653,10 +649,12 @@ footer h1{
 }
 
 .footer-container {
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
     justify-content: space-between;
     display: flex; /* 기본 블록 레이아웃 */
     text-align: center; /* 텍스트 가운데 정렬 */
+    line-height: 30px;
 }
 
 footer hr{
@@ -668,10 +666,11 @@ footer hr{
 }
 
 .footer-bottom{
+    width:1440px;
     justify-content: space-between;
     display: flex; /* 기본 블록 레이아웃 */
     text-align: center; /* 텍스트 가운데 정렬 */
-    margin: 60px 130px;
+    margin: 0 auto;
 }
 
 .footer-bottom p {
